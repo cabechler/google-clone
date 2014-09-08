@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #404040;
+}
+
+form {
+	vertical-align: top;
+	margin: auto;
+	top: 0;
+}
+
+form:hover {
+	color: #737373;
+}
+/*moving from top to bottom*/
+#header {
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+/*.topright {
+	position: absolute;
+	top: 0;
+	right: 1%;
+	padding: 0 27px 0 0;
+	margin: 0;
+}*/
+.topright {
+	top: 2px;
+	margin-right: 20px;
+	margin-top: 5px;
+	float: right;
+	padding: 10px 5px 0 0;
+}
+
+#grid {
+	width: 5px;
+}
+
+#logo {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo img {
+	width: 280px;
+}
+
+#searchbar {
+	position: relative;
+	display: block;
+	border: 1px solid #d8d8d8;
+	height: 25px;
+	margin: 25px;
+	background-image:url(images/microphone.png);
+	background-repeat: no-repeat;
+	background-size: 24px;
+	background-position: right;
+}
+
+#searchbar:hover {
+	border: 1px solid #737373;
+}
+
+input:focus { 
+	outline: none;
+	border: 1px solid #166DEE; 
+}
+
+.buttons {
+	font: bold 11px Arial, sans-serif;
+	color: #444444;
+	background-color: #F1F1F1;
+	padding: 8px 20px;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+}
+
+.buttons:hover {
+	border-bottom: 2px solid #737373;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	position: absolute;
+	font-size: small;
+	width: 100%;
+	height: 10px;
+	padding: 15px;
+}
+
+#bluebutton {
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4683ea;
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	color: white;
+}
+#bluebutton:hover {
+	text-decoration: none;
+}
+
+.leftfooter {
+	display: inline;
+	margin-bottom: 0;
+	text-align: left;
+	padding: 0 0 0 27px;
+	border-top: 50px;
+}
+
+.rightfooter {
+	margin-right: 10;
+	float: right;
+	padding: 0 27px 0 0;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-family: Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #272727;
+}
